@@ -1,14 +1,38 @@
-h1,h3{
-    color: navy;
+body{
+    background-color:wheat;
+    }
+h1,h2,h3,h4,h5{
+    color: black;
+    clear: both;
+}
+
+h3{
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    margin-block-end: 0%;
 }
 
 p,li{
-    color: purple;    
+    color: black;    
 }
 
 .image{
     display: flex;
-    align-self: center;
-    clear: both;
     max-width: 60%;
+    max-height: 50%;
 }
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.middle{
+    display: flex;
+    align-items: middle;
+    align-items: center;
+    flex-direction: column;
+} 
