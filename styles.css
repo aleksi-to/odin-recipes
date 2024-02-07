@@ -1,0 +1,14 @@
+h1,h3{
+    color: navy;
+}
+
+p,li{
+    color: purple;    
+}
+
+.image{
+    display: flex;
+    align-self: center;
+    clear: both;
+    max-width: 60%;
+}
